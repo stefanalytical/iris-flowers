@@ -16,9 +16,9 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.svm import SVC
 
 # Load dataset
-url = "https://raw.githubusercontent.com/jbrownlee/Datasets/master/iris.csv"
+path = '/Users/stefanvuleta/Projects/iris_machine_learning/iris.csv'
 names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']
-dataset = read_csv(url, names = names)
+dataset = read_csv(path, names = names)
 
 # shape
 print(dataset.shape)
@@ -58,6 +58,7 @@ models.append(('KNN', KNeighborsClassifier()))
 models.append(('CART', DecisionTreeClassifier()))
 models.append(('NB', GaussianNB()))
 models.append(('SVM', SVC(gamma='auto')))
+
 # evaluate each model in turn
 results = []
 names = []
