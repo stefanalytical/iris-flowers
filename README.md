@@ -22,7 +22,7 @@ In this project I:
 
 ## Install and Run
 
-This project was created using ScipPy. If you need to download or update SciPy, you can do so on their [website](https://scipy.org/install/).
+This project was created using ScipPy and Python 3.10. If you need to download or update SciPy, you can do so on their [website](https://scipy.org/install/). If you need to download or update Python, you can do so on their [website](https://www.python.org/downloads/).
 
 1. First, clone the repository: [iris-flowers](https://github.com/stefanalytical/iris-flowers.git) and save it to your machine using the command prompt. Navigate to the [iris-flowers](https://github.com/stefanalytical/iris-flowers.git) directory.
 
