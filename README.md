@@ -57,3 +57,7 @@ pip3 install -r requirements.txt
 ```bash
 main.py
 ```
+
+## Inspiration
+
+This project was created by following a tutorial by Jason Brownlee, PhD., author of _Machine Learning Mastery With Python_.
