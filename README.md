@@ -11,6 +11,11 @@ In this project I:
 1. Installed SciPy as it as the most useful package for machine learning.
 2. Loaded the dataset and used statistical summaries and data visualizations to understand it.
 3. Created 5 ML models and picked the optimal one while ensuring the accuracy is reliable.
- 
- 
- 
+
+## ML Models
+
+1. **Logistic Regression 'LR'**. Simple linear algorithm. (Estimated accuracy score of 94.2%)
+2. **Linear Discriminant Analysis 'LDA'**. Simple linear algorithm. (Estimated accuracy score of 97.5%)
+3. **Classification and Regression Trees 'CART'**. Nonlinear algorithm. (Estimated accuracy score of 93.3%)
+4. **Gaussian Naive Bayes. Nonlinear algorithm 'NB'**. (Estimated accuracy score of 95%)
+5. **Support Vector Machines. Nonlinear algorithm 'SVM'**. (Estimated accuracy score of 98.3%)
