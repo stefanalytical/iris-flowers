@@ -19,3 +19,37 @@ In this project I:
 3. **Classification and Regression Trees 'CART'**. Nonlinear algorithm. (Estimated accuracy score of 93.3%)
 4. **Gaussian Naive Bayes. Nonlinear algorithm 'NB'**. (Estimated accuracy score of 95%)
 5. **Support Vector Machines. Nonlinear algorithm 'SVM'**. (Estimated accuracy score of 98.3%)
+
+## Install and Run
+
+This project was created using ScipPy. If you need to download or update SciPy, you can do so on their [website](https://scipy.org/install/).
+
+1. First, clone the repository: [iris-flowers](https://github.com/stefanalytical/iris-flowers.git) and save it to your machine using the command prompt. Navigate to the [iris-flowers](https://github.com/stefanalytical/iris-flowers.git) directory.
+
+2. A virtual environment is required to run the program. Creation and activation will depend on the system you are using. Using the command prompt:
+
+**To create the virtual environment:**
+
+`python -m venv venv` or `python3 -m venv venv` <br />
+or <br />
+`python -m venv env` or `python3 -m venv env`
+
+**To activate the virtual environment:**
+
+Windows: <br />
+<br />`venv/Scripts/Activate` <br />
+
+Mac: <br />
+<br />`source venv/bin/activate` <br />
+or <br />
+`source env/bin/activate`
+
+3. Once the virtual environment is activated, please install the project's dependencies found in the requirements.txt folder.
+
+```bash
+pip install -r requirements.txt
+```
+or
+```bash
+pip3 install -r requirements.txt
+```
