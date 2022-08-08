@@ -24,7 +24,7 @@ print(dataset.shape)
 # Access first 20 rows in DataFrame.
 print(dataset.head(20))
 
-# Calculate some statistical data like percentile, mean and std of the numerical values of the DataFrame.
+# Calculate statistical data like percentile, mean and std of the numerical values of the DataFrame.
 print(dataset.describe())
 
 # Get int representing the number of elements in class column by group.
